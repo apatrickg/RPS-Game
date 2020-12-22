@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/52f07981aa.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="container">
+    <!-- Display results per round -->
+    <h1 class="rps-test" id="test">Test Your Luck </h1>
+    <!-- Hold the score -->
+     <div class="score-board">
+        <li id="cpu">0</li>
+        <li id="player">0</li>
+    </div>
+    <!-- Hold button elements -->
+    <div class="button-container"> 
+        <button class="btn choices" id="rock"><i class="far fa-hand-rock"></i></button>
+        <button class="btn choices" id="paper"><i class="far fa-hand-paper"></i></button>
+        <button class="btn choices" id="scissors"><i class="far fa-hand-scissors"></i></button>
+        <button class="btn reset" id="reset"><i class="fas fa-redo-alt"></i></button>
+    </div>
+</div>
+</body>
